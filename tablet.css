@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .slider {
+    margin: 0 auto 40px;
+  }
+
+  .slide {
+    width: 436px !important;
+    height: 548px !important;
+    margin-right: 32px;
+  }
+}

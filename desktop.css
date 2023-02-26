@@ -1,0 +1,22 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .section {
+    margin-left: 737px;
+  }
+
+  .slider {
+    margin: 0 auto 16px;
+  }
+
+  .buttons {
+    justify-content: left;
+  }
+
+  .slide {
+    width: 438px !important;
+    height: 580px !important;
+  }
+}

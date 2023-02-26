@@ -25,6 +25,7 @@ document.querySelector('.slider-next').addEventListener('click', function () {
     rollSlider();
 });
 
+
 document.querySelector('.slider-prev').addEventListener('click', function () {
     count--;
     if (count < 0) {
@@ -34,7 +35,8 @@ document.querySelector('.slider-prev').addEventListener('click', function () {
 });
 
 function rollSlider() {
-    sliderLine.style.transform = 'translate(-' + count * 470 + 'px)';
+    sliderLine.style.transform =
+      "translate(-" + count * width + "px)";
     
 }
 
