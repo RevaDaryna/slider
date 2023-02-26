@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+body{
+
+    background: #f1f1f1;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.section {
+    margin-left: 737px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    bottom: 0;
+}
+
+.button {
+    border: none;
+    padding: 0;
+}
+
+.slider-prev {
+    background-color: rgba(0, 125, 215, 0);
+    border: none;
+}
+
+.svg {
+  fill: #121212;
+}
+
+.slider {
+  margin: 16px auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  display: flex;  
+  position: relative;
+  left: 0;
+  background-color: aquamarine;
+  transition: all ease 1s;
+}
+
+.slide {
+    width: 438px !important;
+    height: 580px;
+    margin-right: 32px;
+}
